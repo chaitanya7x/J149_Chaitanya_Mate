@@ -10,8 +10,6 @@ public class q8 {
 		System.out.println("Enter the N : ");
 		int range = sc.nextInt();
 
-		System.out.println("2,3");
-
 		for (int i = 2; i <= range; i++) {
 			if (isPrime(i)) {
 				System.out.print(i + " ");
